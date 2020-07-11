@@ -19,7 +19,7 @@ class Ground {
         var pos=this.body.position;
         var angle=this.body.angle
     push();
-    fill("brown");
+    fill("white");
     rotate(angle);
     rectMode(CENTER)
     rect(pos.x,pos.y,this.width,this.height)

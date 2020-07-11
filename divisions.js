@@ -13,9 +13,12 @@ World.add(world,this.body);
 }
 display(){
     var pos=this.body.position;
+    push();
     rectMode(CENTER);
     fill("red");
     rect(pos.x,pos.y,this.w,this.h);
+    pop();
+   
 }
 
 
